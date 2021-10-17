@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "playgrounds",
-    "slug": "playgrounds",
+    "name": "sniplet",
+    "slug": "sniplet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
