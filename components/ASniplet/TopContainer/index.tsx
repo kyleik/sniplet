@@ -40,7 +40,7 @@ const TopContainer = ({sniplet, currentIndex, currentVisibleIndex, replyItem}: T
         }
     }
 
-    const playPendingAudio = async () => {
+    const playCurrentPendingAudio = async () => {
         if (pendingSound) {
             await pendingSound.unloadAsync();
             }
@@ -54,7 +54,7 @@ const TopContainer = ({sniplet, currentIndex, currentVisibleIndex, replyItem}: T
         )
         setSound(newSound)
         playCurrentAudio();
-        playPendingAudio();
+        playCurrentPendingAudio();
     }
 
     const playPendingAudio = async () => {
@@ -65,7 +65,7 @@ const TopContainer = ({sniplet, currentIndex, currentVisibleIndex, replyItem}: T
         )
         setpendingSound(newSound)
         playCurrentAudio();
-        playPendingAudio();
+        playCurrentPendingAudio();
     }
 
     const progress = () => {
