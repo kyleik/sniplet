@@ -1,5 +1,5 @@
 # Sniplet
-A platform where you can record, sample and share audio clips called Sniplets.
+A platform where you can record, sample and share 11-second audio clips called Sniplets.
 
 ## Features
 
