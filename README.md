@@ -27,5 +27,3 @@ https://user-images.githubusercontent.com/92265640/137652983-22cafc05-7f88-493d-
 
 This repository contains the front-end side of application.
 
-## License
-
